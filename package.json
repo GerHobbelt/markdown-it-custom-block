@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-custom-block",
   "description": "Custom blocks for markdown-it",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "./dist/index.js",
   "scripts": {
     "test": "yarn unit",
