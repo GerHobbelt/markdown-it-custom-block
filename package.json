@@ -6,7 +6,8 @@
   "scripts": {
     "test": "yarn unit",
     "unit": "mocha --colors",
-    "dev": "npm-watch"
+    "dev": "npm-watch",
+    "build": "babel index.js --presets babel-preset-es2015 --out-dir dist"
   },
   "watch": {
     "unit": {
@@ -36,6 +37,8 @@
   "homepage": "https://github.com/posva/markdown-it-custom-block#readme",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "markdown-it": "^8.3.1",
     "markdown-it-testgen": "^0.1.4",
     "mocha": "^3.3.0",
