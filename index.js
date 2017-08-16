@@ -1,4 +1,4 @@
-const embedRE = /@\[([\w-]+)\](\((.+)\))?/im
+const embedRE = /@\[([\w-]+)\](?:\((.+)\))?/im
 
 module.exports = function plugin (md, options) {
   md.renderer.rules.custom = function tokenizeBlock (tokens, idx) {
